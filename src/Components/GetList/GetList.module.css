@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 970px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-content: center;
+
+
+}
+
+#outputList{
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+
+    
+}
+
+button{
+    background-color: #0019f8;
+    color: aliceblue;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    border: none;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+input:hover{
+    transform: scale(1.1);
+}
+
+input{
+    cursor: pointer;
+    height: 30px;
+    border-radius: 1px 5px 1px 5px;
+}
+
+.tabBar{
+    display: flex;
+    column-gap: 16px;
+
+}
