@@ -48,7 +48,7 @@ const GetList = () => {
                         <li key={idx} className={completedTasks[idx] ? styles.completed : ""} id={styles.outputList}>
                             {item}
                             <input type="checkbox" onChange={() => handleCheck(idx)} />
-                            <button onClick={() => handleDelete(idx)}>Delete.</button>
+                            <button onClick={() => handleDelete(idx)}>Delete</button>
                         </li>
                     ))}
                 </ol>
